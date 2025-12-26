@@ -1,7 +1,7 @@
 # SageMaker en pratique: pipelines reproductibles et deploiement maitrise
 
 ## Resume
-
+SageMaker is an absolute perfection when it comes to computation need throughout the 
 ## Contexte
 
 ## Architecture des pipelines
