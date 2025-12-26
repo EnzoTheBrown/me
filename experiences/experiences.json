@@ -1,0 +1,529 @@
+[
+  {
+    "id": "likeabird-intern-2017",
+    "title": "Stagiaire Data Scientist",
+    "employment_type": "internship",
+    "level": "intern",
+    "start_date": "2017-01-01",
+    "end_date": "2017-12-31",
+    "summary": "Soutien d'un data scientist pour améliorer les modèles NLP et les pipelines de données, et participation à la mise en production de modèles et de l'infrastructure de messagerie multi-canale.",
+    "location": "France",
+    "company": {
+      "name": "Like A Bird",
+      "description": "Start-up spécialisée dans le déploiement et la configuration de chatbots clés en main pour divers secteurs : e-commerce, industrie, ressources humaines et événementiel.",
+      "sectors": [
+        "E-commerce",
+        "Industrie",
+        "Ressources humaines",
+        "Événementiel"
+      ],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "Pipelines de scraping et entraînement de modèles NLP",
+        "period": {
+          "start_date": "2017-01-01",
+          "end_date": "2017-06-30"
+        },
+        "description": "Conception et déploiement de pipelines de scraping distribués et de modèles de réseaux de neurones pour le traitement conversationnel.",
+        "responsibilities": [
+          "Conception et déploiement de pipelines de scraping distribués.",
+          "Conception d’architectures LSTM pour le traitement conversationnel.",
+          "Analyse et évaluation de modèles en production.",
+          "Déploiement et automatisation du cycle de vie des modèles sur AWS."
+        ],
+        "tech_stack": [
+          "Python",
+          "BeautifulSoup",
+          "AWS Lambda",
+          "AWS S3",
+          "Docker",
+          "Keras",
+          "TensorFlow",
+          "Scikit-learn",
+          "Matplotlib",
+          "Jupyter Notebook",
+          "AWS EC2",
+          "Jenkins"
+        ],
+        "impact": "Mise en place d’une base technique permettant d’entraîner et déployer rapidement des modèles NLP adaptés aux besoins des clients.",
+        "links": []
+      },
+      {
+        "name": "Plateforme de traitement de messages multi-canaux",
+        "period": {
+          "start_date": "2017-04-01",
+          "end_date": "2017-12-31"
+        },
+        "description": "Construction d’une plateforme de traitement de messages pour Twitter, Facebook, Discord et plugins web, avec très faible latence.",
+        "responsibilities": [
+          "Développement de webhooks pour Twitter, Facebook, Discord et plugins web.",
+          "Mise en place du moteur de routage et d’orchestration des modèles NLP.",
+          "Conception et maintenance du modèle de données SQL (PostgreSQL).",
+          "Développement d’un module d’envoi asynchrone vers les différents canaux."
+        ],
+        "tech_stack": [
+          "Python",
+          "PostgreSQL",
+          "AWS RDS",
+          "Alembic",
+          "Docker",
+          "Twitter API",
+          "Facebook API",
+          "Discord API"
+        ],
+        "impact": "Infra de chatbots à très faible latence, basée sur des modèles de Machine Learning de pointe, permettant des opérations commerciales à grande échelle sur les réseaux sociaux.",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "likeabird-datascientist-2018-2022",
+    "title": "Data Scientist Junior",
+    "employment_type": "full-time",
+    "level": "junior",
+    "start_date": "2018-01-01",
+    "end_date": "2022-12-31",
+    "summary": "Responsable du backend et des pipelines MLOps dédiés à l’amélioration continue des modèles NLP, de la collecte de données jusqu’au déploiement et suivi de performance.",
+    "location": "France",
+    "company": {
+      "name": "Like A Bird",
+      "description": "Start-up spécialisée dans le déploiement et la configuration de chatbots clés en main pour divers secteurs : e-commerce, industrie, ressources humaines et événementiel.",
+      "sectors": [
+        "E-commerce",
+        "Industrie",
+        "Ressources humaines",
+        "Événementiel"
+      ],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "Plateforme d’amélioration continue des modèles NLP",
+        "period": {
+          "start_date": "2018-01-01",
+          "end_date": "2022-12-31"
+        },
+        "description": "Industrialisation du cycle complet de Machine Learning : collecte, annotation, entraînement, déploiement et monitoring, autour de modèles BERT/GPT sur SageMaker.",
+        "responsibilities": [
+          "Fine-tuning de modèles NLP avancés (BERT, GPT) sur datasets internes.",
+          "Mise en place de pipelines d’entraînement reproductibles sur AWS SageMaker.",
+          "Déploiement de modèles sur SageMaker via images Docker customisées.",
+          "Développement d’un backend exposant les données de conversations pour l’amélioration continue.",
+          "Collecte des annotations clients pour enrichir les datasets.",
+          "Orchestration des étapes de Machine Learning (training, évaluation, inférence) via SageMaker."
+        ],
+        "tech_stack": [
+          "Python",
+          "BERT",
+          "GPT",
+          "HuggingFace",
+          "AWS SageMaker",
+          "AWS S3",
+          "Docker",
+          "AWS Lambda",
+          "PostgreSQL"
+        ],
+        "impact": "Mise en place d’un système automatique d’amélioration des performances NLP, réduisant fortement le temps entre la détection d’un bug NLP et son correctif, et augmentant la qualité des réponses des chatbots.",
+        "links": [
+          {
+            "type": "article",
+            "label": "Article AWS France sur le pipeline SageMaker",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "name": "Communication & retour d’expérience AWS",
+        "period": {
+          "start_date": "2020-01-01",
+          "end_date": "2022-12-31"
+        },
+        "description": "Participation à la rédaction et à la présentation d’un retour d’expérience détaillé avec les équipes AWS.",
+        "responsibilities": [
+          "Co-rédaction d’un article technique décrivant le pipeline NLP sur SageMaker.",
+          "Présentation des bonnes pratiques à la communauté ML avec AWS.",
+          "Contribution à la visibilité de Like A Bird auprès de la communauté ML."
+        ],
+        "tech_stack": ["AWS SageMaker", "Python", "MLOps"],
+        "impact": "Renforcement de la crédibilité de Like A Bird et mise en avant comme cas d’usage exemplaire de SageMaker.",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "qantis-data-ai-2022-2023",
+    "title": "Ingénieur Data & IA",
+    "employment_type": "full-time",
+    "level": "mid",
+    "start_date": "2022-01-01",
+    "end_date": "2023-12-31",
+    "summary": "Conception et développement de solutions Data, BI, IA et chatbots visant à moderniser les outils internes, automatiser l’analyse des besoins clients et améliorer l’exploitation des données.",
+    "location": "France",
+    "company": {
+      "name": "Qantis",
+      "description": "Centrale d’achat accompagnant les PME françaises dans la négociation de tarifs préférentiels auprès de multiples fournisseurs. Qantis a racheté Like A Bird en 2022.",
+      "sectors": [
+        "Achat groupé",
+        "Data",
+        "Business Intelligence",
+        "Intelligence Artificielle",
+        "Chatbots"
+      ],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "Chatbots & Recherche intelligente (RAG)",
+        "period": {
+          "start_date": "2022-01-01",
+          "end_date": "2023-12-31"
+        },
+        "description": "Développement de chatbots et d’outils de recherche basés sur des techniques de Retrieval-Augmented Generation (RAG), avec un moteur de recherche unifié interrogeant de multiples sources publiques.",
+        "responsibilities": [
+          "Développement de chatbots basés sur la RAG.",
+          "Conception d’un moteur de recherche unifié.",
+          "Centralisation et interrogation de données issues de nombreux sites publics.",
+          "Exposition des services via API."
+        ],
+        "tech_stack": ["Python", "LanceDB", "FastAPI", "LLM", "RAG"],
+        "impact": "Réduction du temps de recherche commerciale et amélioration significative de la réactivité lors des appels d’offres.",
+        "links": []
+      },
+      {
+        "name": "Plateforme d’envoi d’enquêtes de satisfaction SMS",
+        "period": {
+          "start_date": "2022-03-01",
+          "end_date": "2023-06-30"
+        },
+        "description": "Conception d’une plateforme scalable d’envoi d’enquêtes de satisfaction pour de grands acteurs du BTP.",
+        "responsibilities": [
+          "Conception de l’architecture de la plateforme.",
+          "Implémentation d’un moteur d’envoi massif asynchrone en Python.",
+          "Gestion de la persistance des données dans PostgreSQL.",
+          "Supervision de la scalabilité et de la fiabilité du système."
+        ],
+        "tech_stack": ["Python", "asyncio", "PostgreSQL", "API SMS"],
+        "impact": "Automatisation complète d’un processus auparavant manuel et amélioration du taux de retour client.",
+        "links": []
+      },
+      {
+        "name": "Datalake & pipelines BI",
+        "period": {
+          "start_date": "2022-04-01",
+          "end_date": "2023-12-31"
+        },
+        "description": "Mise en place d’un datalake centralisé pour l’agrégation des données CRM et autres sources internes, avec restitution via Power BI.",
+        "responsibilities": [
+          "Conception du datalake centralisé.",
+          "Intégration des données issues du CRM et de sources internes.",
+          "Stockage dans AWS S3.",
+          "Interrogation via AWS Athena.",
+          "Création de dashboards Power BI."
+        ],
+        "tech_stack": ["AWS S3", "AWS Athena", "Power BI", "Python", "CRM"],
+        "impact": "Création d’une vue consolidée de l’activité facilitant le pilotage stratégique.",
+        "links": []
+      },
+      {
+        "name": "Système de recommandation produits",
+        "period": {
+          "start_date": "2022-06-01",
+          "end_date": "2023-09-30"
+        },
+        "description": "Développement d’un module de recommandation produits basé sur l’analyse des historiques de consommation clients.",
+        "responsibilities": [
+          "Analyse des historiques de consommation.",
+          "Développement d’un modèle de recommandation.",
+          "Implémentation des algorithmes XGBoost et Apriori.",
+          "Intégration des recommandations dans les outils métiers."
+        ],
+        "tech_stack": ["Python", "XGBoost", "Apriori", "Machine Learning"],
+        "impact": "Augmentation des opportunités commerciales grâce à des suggestions de produits contextualisées.",
+        "links": []
+      },
+      {
+        "name": "Outil d’analyse automatique de factures",
+        "period": {
+          "start_date": "2023-01-01",
+          "end_date": "2023-12-31"
+        },
+        "description": "Développement d’un outil permettant d’analyser automatiquement les factures fournisseurs afin d’estimer les économies potentielles pour les prospects.",
+        "responsibilities": [
+          "Extraction et structuration automatique des données de factures.",
+          "Calcul des écarts tarifaires.",
+          "Estimation des gains potentiels pour les prospects.",
+          "Mise à disposition de l’outil pour les équipes commerciales."
+        ],
+        "tech_stack": ["Python", "OCR", "Data Processing", "ETL"],
+        "impact": "Accélération significative du processus de qualification commerciale et amélioration du taux de conversion.",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "ibanfirst-genai-lead-2024-present",
+    "title": "Lead Backend & GenAI",
+    "employment_type": "full-time",
+    "level": "lead",
+    "start_date": "2024-01-01",
+    "end_date": null,
+    "summary": "Rôle central dans la conception d’une plateforme d’analyse documentaire et d’automatisation des paiements via LLM, avec responsabilité complète de l’architecture, de la mise en production et de la structuration de l’équipe GenAI.",
+    "location": "France",
+    "company": {
+      "name": "iBanFirst",
+      "description": "Scale-up fintech spécialisée dans les paiements internationaux pour les PME et ETI.",
+      "sectors": [
+        "Fintech",
+        "Paiements internationaux",
+        "GenAI",
+        "Automatisation"
+      ],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "POC d’automatisation des paiements via LLM",
+        "period": {
+          "start_date": "2024-01-01",
+          "end_date": "2024-03-31"
+        },
+        "description": "Conception du premier POC visant à extraire automatiquement toutes les informations nécessaires à la création d’un paiement à partir d’une facture.",
+        "responsibilities": [
+          "Définition de l’architecture du pipeline d’extraction et d’analyse documentaire.",
+          "Pilotage du choix des technologies.",
+          "Définition des standards de qualité et de la stratégie d’évaluation des modèles.",
+          "Coordination avec les équipes Produit et Compliance pour cadrer les besoins fonctionnels et réglementaires."
+        ],
+        "tech_stack": [
+          "AWS Textract",
+          "OpenAI",
+          "LangChain",
+          "Pydantic-AI",
+          "DeepEval",
+          "Scikit-learn",
+          "Python"
+        ],
+        "impact": "Démonstration concluante ayant permis le passage à l’industrialisation et le déclenchement du développement de la plateforme complète.",
+        "links": []
+      },
+      {
+        "name": "Plateforme d’automatisation des paiements",
+        "period": {
+          "start_date": "2024-04-01",
+          "end_date": null
+        },
+        "description": "Plateforme distribuée permettant l’analyse de documents fournisseurs et la création automatique de paiements avec fortes contraintes de fiabilité, de traçabilité et de scalabilité.",
+        "responsibilities": [
+          "Conception de l’architecture distribuée et des flux de données.",
+          "Lead sur la création d’un worker capable de parser des milliers de documents.",
+          "Développement du module de création automatique des paiements.",
+          "Supervision de la mise en production et de la qualité globale du système."
+        ],
+        "tech_stack": [
+          "Kafka",
+          "FastAPI",
+          "AWS S3",
+          "Python",
+          "asyncio",
+          "REST"
+        ],
+        "impact": "Réduction drastique du temps de traitement des paiements et limitation significative des erreurs humaines grâce à une automatisation fiable.",
+        "links": []
+      },
+      {
+        "name": "Infrastructure, DevOps & Observabilité",
+        "period": {
+          "start_date": "2024-04-01",
+          "end_date": null
+        },
+        "description": "Mise en place de l’infrastructure Kubernetes, des pipelines DevOps et des standards d’observabilité pour la plateforme IA.",
+        "responsibilities": [
+          "Supervision du déploiement sur Kubernetes avec focus performance, sécurité et scalabilité.",
+          "Mise en place d’une pipeline DevOps complète via GitHub Actions et ArgoCD.",
+          "Définition et déploiement des standards d’observabilité.",
+          "Mise en place du suivi de la latence, de la stabilité et du taux d’erreur."
+        ],
+        "tech_stack": [
+          "Kubernetes",
+          "Cilium",
+          "Docker",
+          "GitHub Actions",
+          "ArgoCD",
+          "Grafana",
+          "Prometheus",
+          "OpenTelemetry"
+        ],
+        "impact": "Plateforme hautement observable, scalable et sécurisée, adoptée comme standard par d’autres équipes.",
+        "links": []
+      },
+      {
+        "name": "Quality Ownership & standards Backend",
+        "period": {
+          "start_date": "2024-04-01",
+          "end_date": null
+        },
+        "description": "Structuration complète de la qualité logicielle et des standards backend pour l’équipe IA.",
+        "responsibilities": [
+          "Mise en place d’un framework de tests complet.",
+          "Définition des bonnes pratiques backend.",
+          "Rédaction des guidelines techniques pour l’équipe IA/Backend.",
+          "Garantie de la non-régression et de la stabilité des livraisons."
+        ],
+        "tech_stack": ["Pytest", "Tests fonctionnels", "Tests E2E", "Python"],
+        "impact": "Amélioration forte de la fiabilité en production et accélération sécurisée des cycles de livraison.",
+        "links": []
+      },
+      {
+        "name": "Leadership d’équipe & structuration de la GenAI",
+        "period": {
+          "start_date": "2024-01-01",
+          "end_date": null
+        },
+        "description": "Construction, structuration et montée en compétences de l’équipe GenAI.",
+        "responsibilities": [
+          "Onboarding d’ingénieurs sur un sujet multi-technique complexe.",
+          "Mentoring technique, pair programming et revues systématiques de PR.",
+          "Mise en place d’un rythme d’équipe structuré (Agile, grooming, alignement technique).",
+          "Participation au recrutement et à la définition des critères d’embauche.",
+          "Décision sur les profils retenus."
+        ],
+        "tech_stack": [
+          "Agilité",
+          "Management technique",
+          "Revue de code",
+          "Architecture"
+        ],
+        "impact": "Formation d’une équipe GenAI efficace, autonome et alignée techniquement, capable de délivrer rapidement des fonctionnalités complexes en production.",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "tantar-cofounder-2023",
+    "title": "Cofondateur & Lead Produit / Tech",
+    "employment_type": "entrepreneurship",
+    "level": "founder",
+    "start_date": "2023-01-01",
+    "end_date": null,
+    "summary": "Cofondateur de Tantar, plateforme d’analyse documentaire juridique permettant d’extraire automatiquement une frise chronologique structurée des événements juridiques d’une entreprise. Responsable du développement produit, de l’architecture technique et de la stratégie business.",
+    "location": "France",
+    "company": {
+      "name": "Tantar",
+      "description": "Société cofondée pour aider avocats, juristes et experts-comptables à retrouver efficacement les informations clés d’une société à partir de leurs documents juridiques.",
+      "sectors": ["LegalTech", "Analyse documentaire", "IA", "OCR", "RAG"],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "Plateforme d’analyse documentaire juridique",
+        "period": {
+          "start_date": "2023-01-01",
+          "end_date": null
+        },
+        "description": "Plateforme permettant d’extraire automatiquement les informations juridiques essentielles et de reconstruire une frise chronologique structurée de la vie d’une entreprise.",
+        "responsibilities": [
+          "Conception de l’architecture globale de la plateforme.",
+          "Extraction automatique des informations juridiques via OCR et IA.",
+          "Structuration des événements juridiques sous forme de frise chronologique.",
+          "Mise en production de la plateforme."
+        ],
+        "tech_stack": [
+          "OCR",
+          "Pydantic-AI",
+          "Python",
+          "FastAPI",
+          "AWS EC2",
+          "AWS S3"
+        ],
+        "impact": "Automatisation de l’analyse juridique chronologique, apportant une vision claire, immédiate et structurée de l’historique d’une société.",
+        "links": []
+      },
+      {
+        "name": "Réconciliation documentaire & base vectorielle",
+        "period": {
+          "start_date": "2023-03-01",
+          "end_date": null
+        },
+        "description": "Outil permettant d’associer automatiquement les pièces juridiques entre elles à l’aide de techniques de RAG et d’une base vectorielle.",
+        "responsibilities": [
+          "Développement d’un moteur de réconciliation documentaire.",
+          "Association automatique de documents juridiques liés.",
+          "Mise en place d’une base vectorielle pour la recherche sémantique.",
+          "Développement d’un RAG pour restitution structurée des données pertinentes."
+        ],
+        "tech_stack": ["RAG", "LanceDB", "Vector Database", "Python", "LLM"],
+        "impact": "Connexion automatique des documents juridiques entre eux, améliorant fortement la compréhension des dossiers complexes.",
+        "links": []
+      },
+      {
+        "name": "API backend & Frontend produit",
+        "period": {
+          "start_date": "2023-02-01",
+          "end_date": null
+        },
+        "description": "Développement de l’API complète et du frontend de visualisation produit.",
+        "responsibilities": [
+          "Développement d’une API complète pour la soumission de documents et l’authentification.",
+          "Restitution des informations extraites via endpoints structurés.",
+          "Conception et développement du frontend de visualisation.",
+          "Présentation produit aux clients."
+        ],
+        "tech_stack": ["FastAPI", "Vue.js", "Python", "AWS EC2", "AWS S3"],
+        "impact": "Mise à disposition d’une plateforme exploitable par les clients pour l’analyse et la visualisation des données juridiques.",
+        "links": []
+      },
+      {
+        "name": "Suite d’agents IA & regroupement automatique de documents",
+        "period": {
+          "start_date": "2023-06-01",
+          "end_date": null
+        },
+        "description": "Développement d’agents IA capables de regrouper automatiquement les documents traitant d’un même sujet.",
+        "responsibilities": [
+          "Conception d’agents IA spécialisés par type d’événement juridique.",
+          "Regroupement automatique de documents liés à un même sujet.",
+          "Amélioration continue de la pertinence du regroupement."
+        ],
+        "tech_stack": ["Agents IA", "LLM", "Python", "Vector Database", "RAG"],
+        "impact": "Automatisation du regroupement thématique des documents juridiques, facilitant l’analyse métier.",
+        "links": []
+      },
+      {
+        "name": "Stratégie, business & go-to-market",
+        "period": {
+          "start_date": "2023-01-01",
+          "end_date": null
+        },
+        "description": "Définition de la stratégie produit, du business model et pilotage du lancement commercial.",
+        "responsibilities": [
+          "Définition de la proposition de valeur.",
+          "Élaboration du business model.",
+          "Prospection commerciale et démonstrations clients.",
+          "Accompagnement de la phase de bêta-test.",
+          "Participation à des salons professionnels et événements du secteur."
+        ],
+        "tech_stack": [
+          "Stratégie produit",
+          "Business model",
+          "Prospection commerciale",
+          "Démonstration produit"
+        ],
+        "impact": "Positionnement clair du produit sur le marché LegalTech et validation du besoin auprès des premiers clients.",
+        "links": [
+          {
+            "type": "award",
+            "label": "Lauréat du concours TechnoDroit 2024",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "licence-maths-informatique-lyon1",
+    "degree": "Licence",
+    "field_of_study": "Mathématiques et Informatique",
+    "start_date": "2013-09-01",
+    "end_date": "2016-06-30",
+    "grade": null,
+    "summary": "Formation en mathématiques et informatique couvrant la théorie de l’informatique, la calculabilité, le développement en C, l’algèbre linéaire et l’analyse.",
+    "location": "Lyon, France",
+    "institution": {
+      "name": "Université Claude Bernard Lyon 1",
+      "description": "Université spécialisée dans les sciences, les technologies et la santé.",
+      "location": "Lyon, France",
+      "website": ""
+    },
+    "projects": []
+  },
+  {
+    "id": "master-datascience-lyon1",
+    "degree": "Master",
+    "field_of_study": "Data Science",
+    "start_date": "2016-09-01",
+    "end_date": "2018-06-30",
+    "grade": null,
+    "summary": "Master orienté data science avec un focus sur les probabilités appliquées, le data mining, le machine learning et le développement Python.",
+    "location": "Lyon, France",
+    "institution": {
+      "name": "Université Claude Bernard Lyon 1",
+      "description": "Université spécialisée dans les sciences, les technologies et la santé.",
+      "location": "Lyon, France",
+      "website": ""
+    },
+    "projects": []
+  }
+]
