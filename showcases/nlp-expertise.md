@@ -64,5 +64,3 @@ flowchart TB
 - Itérations plus rapides sur les modèles de routage SAV grâce à une boucle d’amélioration automatisée.
 - Déploiement contrôlé via un mode observateur avant promotion en temps réel.
 - Effort d’annotation réduit dans le temps en ciblant les outliers et les prédictions incertaines.
-
-Si tu veux, partage des métriques réelles (precision/recall, impact sur le routage) et je les intègre précisément.
