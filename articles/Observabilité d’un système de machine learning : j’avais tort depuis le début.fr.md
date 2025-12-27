@@ -17,24 +17,12 @@ Avec le recul, je pense que c’était une erreur fondamentale.
 > Le modèle est un utilisateur du système.
 > - Il consomme des entrées.
 > - Il produit des propositions.  
+> - Il a le droit a l'erreur.
 
 Exactement comme un humain, une API externe ou un service tiers.
 
 On n’observe pas un utilisateur.
-On observe **ce que le système fait avec ses actions**.
-
----
-
-## L’erreur silencieuse n’est pas un problème de modèle
-
-L’**erreur silencieuse** correspond à une action du modèle sur le système qui ne garantit pas une qualité optimale du service rendu, sans pour autant produire d’erreur technique ou de signal explicite.
-
-Dans de nombreux cas, le système délègue volontairement une décision au modèle, en acceptant une part d’incertitude. Lorsque la tâche à accomplir ne peut pas être exprimée de manière déterministe — compréhension du langage, classification sémantique, analyse contextuelle — le modèle est souvent la meilleure, voire la seule, solution possible.
-
-Pendant longtemps, j’ai cherché à intégrer des garde-fous déterministes dans le code afin d’encadrer le modèle et de faire remonter des alertes. Mais il faut bien comprendre que toute la théorie du machine learning a précisément été développée parce que ces règles étaient trop restrictives. Aucune règle explicite ne saurait remplacer un modèle suffisamment robuste pour être utilisé en production.
-
-L’erreur silencieuse n’est donc pas quelque chose que l’observabilité doit chercher à éliminer.
-C’est une propriété intrinsèque des systèmes de machine learning.
+On observe **ce que le système fait avec ses actions**, bonne ou mauvaises.
 
 ---
 
