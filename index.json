@@ -1,15 +1,39 @@
 {
-  "generated_at": "2025-12-27T22:30:55.863980+00:00",
+  "generated_at": "2025-12-31T19:34:08.114913+00:00",
   "articles": [
-    "articles/Observability in a Machine Learning System: I Was Wrong from the Start.en.md",
-    "articles/Observabilit\u00e9 d\u2019un syst\u00e8me de machine learning : j\u2019avais tort depuis le d\u00e9but.fr.md"
+    {
+      "name": "articles/942499319d174a3f83cf46fd61469a93.md",
+      "title": "# Observability in a Machine Learning System: I Was Wrong from the Start\n"
+    },
+    {
+      "name": "articles/cd125495d5204ecea842b9d2864a2c74.md",
+      "title": "# Observabilit\u00e9 d\u2019un syst\u00e8me de machine learning : j\u2019avais tort depuis le d\u00e9but\n"
+    }
   ],
   "showcases": [
-    "showcases/Fine-Tuning NLP pour le routage SAV (AWS SageMaker).fr.md",
-    "showcases/NLP Fine-Tuning for SAV Routing (AWS SageMaker).en.md",
-    "showcases/OCR + Document Parsing Pipeline (Tantar).en.md",
-    "showcases/Payment Automation Platform (iBanFirst).en.md",
-    "showcases/Pipeline OCR + Parsing documentaire (Tantar).fr.md",
-    "showcases/Plateforme d\u2019automatisation des paiements (iBanFirst).fr.md"
+    {
+      "name": "showcases/06195f9d21594cf5a4e0257bc0f941a1.md",
+      "title": "# Case Study - NLP Fine-Tuning for SAV Routing (AWS SageMaker)\n"
+    },
+    {
+      "name": "showcases/3b839113578a4415876652505142aa07.md",
+      "title": "# \u00c9tude de cas - Pipeline OCR + Parsing documentaire (Tantar)\n"
+    },
+    {
+      "name": "showcases/610ab9480e474695891564c7c5b73f56.md",
+      "title": "# \u00c9tude de cas - Fine-Tuning NLP pour le routage SAV (AWS SageMaker)\n"
+    },
+    {
+      "name": "showcases/92597476d0c348adb30d9e18ed47bf10.md",
+      "title": "# Case Study - Payment Automation Platform (iBanFirst)\n"
+    },
+    {
+      "name": "showcases/9befd5aa2bf74e4eb7742ff6444ff07a.md",
+      "title": "# \u00c9tude de cas - Plateforme d\u2019automatisation des paiements (iBanFirst)\n"
+    },
+    {
+      "name": "showcases/f3bb57bb888547e091cf1668380a019c.md",
+      "title": "# Case Study - OCR + Document Parsing Pipeline (Tantar)\n"
+    }
   ]
 }
