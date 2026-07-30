@@ -266,221 +266,6 @@
     ]
   },
   {
-    "id": "ibanfirst-genai-lead-2024-present",
-    "title": "Lead Backend & GenAI",
-    "employment_type": "full-time",
-    "level": "lead",
-    "start_date": "2024-01-01",
-    "end_date": null,
-    "summary": "Rôle central dans la conception d’une plateforme d’analyse documentaire et d’automatisation des paiements via LLM, avec responsabilité complète de l’architecture, de la mise en production et de la structuration de l’équipe GenAI.",
-    "location": "France",
-    "company": {
-      "name": "iBanFirst",
-      "description": "Scale-up fintech spécialisée dans les paiements internationaux pour les PME et ETI.",
-      "sectors": [
-        "Fintech",
-        "Paiements internationaux",
-        "GenAI",
-        "Automatisation"
-      ],
-      "location": "France",
-      "website": ""
-    },
-    "projects": [
-      {
-        "name": "POC d’automatisation des paiements via LLM",
-        "period": {
-          "start_date": "2024-01-01",
-          "end_date": "2024-03-31"
-        },
-        "description": "Conception du premier POC visant à extraire automatiquement toutes les informations nécessaires à la création d’un paiement à partir d’une facture.",
-        "responsibilities": [
-          "Définition de l’architecture du pipeline d’extraction et d’analyse documentaire.",
-          "Pilotage du choix des technologies.",
-          "Définition des standards de qualité et de la stratégie d’évaluation des modèles.",
-          "Coordination avec les équipes Produit et Compliance pour cadrer les besoins fonctionnels et réglementaires."
-        ],
-        "tech_stack": [
-          "AWS Textract",
-          "OpenAI",
-          "LangChain",
-          "Pydantic-AI",
-          "DeepEval",
-          "Scikit-learn",
-          "Python"
-        ],
-        "impact": "Démonstration concluante ayant permis le passage à l’industrialisation et le déclenchement du développement de la plateforme complète.",
-        "links": []
-      },
-      {
-        "name": "Plateforme d’automatisation des paiements",
-        "period": {
-          "start_date": "2024-04-01",
-          "end_date": null
-        },
-        "description": "Plateforme distribuée permettant l’analyse de documents fournisseurs et la création automatique de paiements avec fortes contraintes de fiabilité, de traçabilité et de scalabilité.",
-        "responsibilities": [
-          "Conception de l’architecture distribuée et des flux de données.",
-          "Lead sur la création d’un worker capable de parser des milliers de documents.",
-          "Développement du module de création automatique des paiements.",
-          "Supervision de la mise en production et de la qualité globale du système."
-        ],
-        "tech_stack": [
-          "Kafka",
-          "FastAPI",
-          "AWS S3",
-          "Python",
-          "asyncio",
-          "REST"
-        ],
-        "impact": "Réduction drastique du temps de traitement des paiements et limitation significative des erreurs humaines grâce à une automatisation fiable.",
-        "links": []
-      },
-      {
-        "name": "Infrastructure, DevOps & Observabilité",
-        "period": {
-          "start_date": "2024-04-01",
-          "end_date": null
-        },
-        "description": "Mise en place de l’infrastructure Kubernetes, des pipelines DevOps et des standards d’observabilité pour la plateforme IA.",
-        "responsibilities": [
-          "Supervision du déploiement sur Kubernetes avec focus performance, sécurité et scalabilité.",
-          "Mise en place d’une pipeline DevOps complète via GitHub Actions et ArgoCD.",
-          "Définition et déploiement des standards d’observabilité.",
-          "Mise en place du suivi de la latence, de la stabilité et du taux d’erreur."
-        ],
-        "tech_stack": [
-          "Kubernetes",
-          "Cilium",
-          "Docker",
-          "GitHub Actions",
-          "ArgoCD",
-          "Grafana",
-          "Prometheus",
-          "OpenTelemetry"
-        ],
-        "impact": "Plateforme hautement observable, scalable et sécurisée, adoptée comme standard par d’autres équipes.",
-        "links": []
-      },
-      {
-        "name": "Quality Ownership & standards Backend",
-        "period": {
-          "start_date": "2024-04-01",
-          "end_date": null
-        },
-        "description": "Structuration complète de la qualité logicielle et des standards backend pour l’équipe IA.",
-        "responsibilities": [
-          "Mise en place d’un framework de tests complet.",
-          "Définition des bonnes pratiques backend.",
-          "Rédaction des guidelines techniques pour l’équipe IA/Backend.",
-          "Garantie de la non-régression et de la stabilité des livraisons."
-        ],
-        "tech_stack": ["Pytest", "Tests fonctionnels", "Tests E2E", "Python"],
-        "impact": "Amélioration forte de la fiabilité en production et accélération sécurisée des cycles de livraison.",
-        "links": []
-      },
-      {
-        "name": "Leadership d’équipe & structuration de la GenAI",
-        "period": {
-          "start_date": "2024-01-01",
-          "end_date": null
-        },
-        "description": "Construction, structuration et montée en compétences de l’équipe GenAI.",
-        "responsibilities": [
-          "Onboarding d’ingénieurs sur un sujet multi-technique complexe.",
-          "Mentoring technique, pair programming et revues systématiques de PR.",
-          "Mise en place d’un rythme d’équipe structuré (Agile, grooming, alignement technique).",
-          "Participation au recrutement et à la définition des critères d’embauche.",
-          "Décision sur les profils retenus."
-        ],
-        "tech_stack": [
-          "Agilité",
-          "Management technique",
-          "Revue de code",
-          "Architecture"
-        ],
-        "impact": "Formation d’une équipe GenAI efficace, autonome et alignée techniquement, capable de délivrer rapidement des fonctionnalités complexes en production.",
-        "links": []
-      }
-    ]
-  },
-  {
-    "id": "dgfip-llm-platform-2024",
-    "title": "Ingénieur MLOps / Plateforme d'inférence LLM",
-    "employment_type": "contract",
-    "level": "senior",
-    "start_date": "2024-01-01",
-    "end_date": null,
-    "summary": "Conception, industrialisation et exploitation d'une plateforme d'inférence LLM sur Kubernetes pour la Direction Générale des Finances Publiques (DGFIP). Mission réalisée via TANTAR SAS en sous-traitance INOP'S/UGAP.",
-    "location": "France",
-    "company": {
-      "name": "DGFIP (via INOP'S / UGAP)",
-      "description": "Direction Générale des Finances Publiques. Mission de mise en place d'une plateforme souveraine d'inférence de grands modèles de langage pour des cas d'usage internes, réalisée en sous-traitance via TANTAR SAS.",
-      "sectors": [
-        "Secteur public",
-        "MLOps",
-        "LLM",
-        "Infrastructure IA",
-        "Kubernetes"
-      ],
-      "location": "France",
-      "website": ""
-    },
-    "projects": [
-      {
-        "name": "Plateforme d'inférence LLM sur Kubernetes",
-        "period": {
-          "start_date": "2024-01-01",
-          "end_date": null
-        },
-        "description": "Construction et exploitation d'une plateforme de service de modèles de langage sur Kubernetes, du provisioning GPU jusqu'à l'exposition d'API d'inférence à faible latence.",
-        "responsibilities": [
-          "Conception de l'architecture de la plateforme d'inférence LLM sur Kubernetes.",
-          "Déploiement et opération des moteurs de serving (scheduling GPU, autoscaling, gestion de la mémoire).",
-          "Mise en place de la chaîne GitOps de déploiement (Helm, ArgoCD).",
-          "Exploitation et fiabilisation de la plateforme en production dans un environnement souverain."
-        ],
-        "tech_stack": [
-          "Kubernetes",
-          "Helm",
-          "ArgoCD",
-          "GitOps",
-          "Python",
-          "vLLM",
-          "GPU",
-          "LLM"
-        ],
-        "impact": "Mise à disposition d'une plateforme d'inférence LLM industrialisée et opérée en continu au sein d'un environnement contraint et souverain.",
-        "links": []
-      },
-      {
-        "name": "Industrialisation & observabilité MLOps",
-        "period": {
-          "start_date": "2024-03-01",
-          "end_date": null
-        },
-        "description": "Mise en place des pratiques MLOps autour de la plateforme : automatisation, supervision et observabilité de l'inférence.",
-        "responsibilities": [
-          "Automatisation du cycle de vie de déploiement des modèles.",
-          "Mise en place de la supervision et de l'observabilité de la plateforme d'inférence.",
-          "Optimisation des performances et de l'utilisation des ressources GPU.",
-          "Développement de services asynchrones en Python autour de la plateforme."
-        ],
-        "tech_stack": [
-          "Python",
-          "Async",
-          "Observabilité",
-          "MLOps",
-          "Kubernetes",
-          "Prometheus",
-          "Grafana"
-        ],
-        "impact": "Amélioration de la fiabilité, de la visibilité et de l'efficience des ressources de la plateforme d'inférence.",
-        "links": []
-      }
-    ]
-  },
-  {
     "id": "tantar-cofounder-2023",
     "title": "Cofondateur & Lead Produit / Tech",
     "employment_type": "entrepreneurship",
@@ -599,6 +384,221 @@
             "url": ""
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "ibanfirst-genai-lead-2024-2026",
+    "title": "Lead Backend & GenAI",
+    "employment_type": "full-time",
+    "level": "lead",
+    "start_date": "2024-01-01",
+    "end_date": "2026-03-31",
+    "summary": "Rôle central dans la conception d’une plateforme d’analyse documentaire et d’automatisation des paiements via LLM, avec responsabilité complète de l’architecture, de la mise en production et de la structuration de l’équipe GenAI.",
+    "location": "France",
+    "company": {
+      "name": "iBanFirst",
+      "description": "Scale-up fintech spécialisée dans les paiements internationaux pour les PME et ETI.",
+      "sectors": [
+        "Fintech",
+        "Paiements internationaux",
+        "GenAI",
+        "Automatisation"
+      ],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "POC d’automatisation des paiements via LLM",
+        "period": {
+          "start_date": "2024-01-01",
+          "end_date": "2024-03-31"
+        },
+        "description": "Conception du premier POC visant à extraire automatiquement toutes les informations nécessaires à la création d’un paiement à partir d’une facture.",
+        "responsibilities": [
+          "Définition de l’architecture du pipeline d’extraction et d’analyse documentaire.",
+          "Pilotage du choix des technologies.",
+          "Définition des standards de qualité et de la stratégie d’évaluation des modèles.",
+          "Coordination avec les équipes Produit et Compliance pour cadrer les besoins fonctionnels et réglementaires."
+        ],
+        "tech_stack": [
+          "AWS Textract",
+          "OpenAI",
+          "LangChain",
+          "Pydantic-AI",
+          "DeepEval",
+          "Scikit-learn",
+          "Python"
+        ],
+        "impact": "Démonstration concluante ayant permis le passage à l’industrialisation et le déclenchement du développement de la plateforme complète.",
+        "links": []
+      },
+      {
+        "name": "Plateforme d’automatisation des paiements",
+        "period": {
+          "start_date": "2024-04-01",
+          "end_date": "2026-03-31"
+        },
+        "description": "Plateforme distribuée permettant l’analyse de documents fournisseurs et la création automatique de paiements avec fortes contraintes de fiabilité, de traçabilité et de scalabilité.",
+        "responsibilities": [
+          "Conception de l’architecture distribuée et des flux de données.",
+          "Lead sur la création d’un worker capable de parser des milliers de documents.",
+          "Développement du module de création automatique des paiements.",
+          "Supervision de la mise en production et de la qualité globale du système."
+        ],
+        "tech_stack": [
+          "Kafka",
+          "FastAPI",
+          "AWS S3",
+          "Python",
+          "asyncio",
+          "REST"
+        ],
+        "impact": "Réduction drastique du temps de traitement des paiements et limitation significative des erreurs humaines grâce à une automatisation fiable.",
+        "links": []
+      },
+      {
+        "name": "Infrastructure, DevOps & Observabilité",
+        "period": {
+          "start_date": "2024-04-01",
+          "end_date": "2026-03-31"
+        },
+        "description": "Mise en place de l’infrastructure Kubernetes, des pipelines DevOps et des standards d’observabilité pour la plateforme IA.",
+        "responsibilities": [
+          "Supervision du déploiement sur Kubernetes avec focus performance, sécurité et scalabilité.",
+          "Mise en place d’une pipeline DevOps complète via GitHub Actions et ArgoCD.",
+          "Définition et déploiement des standards d’observabilité.",
+          "Mise en place du suivi de la latence, de la stabilité et du taux d’erreur."
+        ],
+        "tech_stack": [
+          "Kubernetes",
+          "Cilium",
+          "Docker",
+          "GitHub Actions",
+          "ArgoCD",
+          "Grafana",
+          "Prometheus",
+          "OpenTelemetry"
+        ],
+        "impact": "Plateforme hautement observable, scalable et sécurisée, adoptée comme standard par d’autres équipes.",
+        "links": []
+      },
+      {
+        "name": "Quality Ownership & standards Backend",
+        "period": {
+          "start_date": "2024-04-01",
+          "end_date": "2026-03-31"
+        },
+        "description": "Structuration complète de la qualité logicielle et des standards backend pour l’équipe IA.",
+        "responsibilities": [
+          "Mise en place d’un framework de tests complet.",
+          "Définition des bonnes pratiques backend.",
+          "Rédaction des guidelines techniques pour l’équipe IA/Backend.",
+          "Garantie de la non-régression et de la stabilité des livraisons."
+        ],
+        "tech_stack": ["Pytest", "Tests fonctionnels", "Tests E2E", "Python"],
+        "impact": "Amélioration forte de la fiabilité en production et accélération sécurisée des cycles de livraison.",
+        "links": []
+      },
+      {
+        "name": "Leadership d’équipe & structuration de la GenAI",
+        "period": {
+          "start_date": "2024-01-01",
+          "end_date": "2026-03-31"
+        },
+        "description": "Construction, structuration et montée en compétences de l’équipe GenAI.",
+        "responsibilities": [
+          "Onboarding d’ingénieurs sur un sujet multi-technique complexe.",
+          "Mentoring technique, pair programming et revues systématiques de PR.",
+          "Mise en place d’un rythme d’équipe structuré (Agile, grooming, alignement technique).",
+          "Participation au recrutement et à la définition des critères d’embauche.",
+          "Décision sur les profils retenus."
+        ],
+        "tech_stack": [
+          "Agilité",
+          "Management technique",
+          "Revue de code",
+          "Architecture"
+        ],
+        "impact": "Formation d’une équipe GenAI efficace, autonome et alignée techniquement, capable de délivrer rapidement des fonctionnalités complexes en production.",
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "dgfip-llm-platform-2026",
+    "title": "Ingénieur MLOps / Plateforme d'inférence LLM",
+    "employment_type": "contract",
+    "level": "senior",
+    "start_date": "2026-04-01",
+    "end_date": null,
+    "summary": "Conception, industrialisation et exploitation d'une plateforme d'inférence LLM sur Kubernetes pour la Direction Générale des Finances Publiques (DGFIP). Mission réalisée via TANTAR SAS en sous-traitance INOP'S/UGAP.",
+    "location": "France",
+    "company": {
+      "name": "DGFIP (via INOP'S / UGAP)",
+      "description": "Direction Générale des Finances Publiques. Mission de mise en place d'une plateforme souveraine d'inférence de grands modèles de langage pour des cas d'usage internes, réalisée en sous-traitance via TANTAR SAS.",
+      "sectors": [
+        "Secteur public",
+        "MLOps",
+        "LLM",
+        "Infrastructure IA",
+        "Kubernetes"
+      ],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "Plateforme d'inférence LLM sur Kubernetes",
+        "period": {
+          "start_date": "2026-04-01",
+          "end_date": null
+        },
+        "description": "Construction et exploitation d'une plateforme de service de modèles de langage sur Kubernetes, du provisioning GPU jusqu'à l'exposition d'API d'inférence à faible latence.",
+        "responsibilities": [
+          "Conception de l'architecture de la plateforme d'inférence LLM sur Kubernetes.",
+          "Déploiement et opération des moteurs de serving (scheduling GPU, autoscaling, gestion de la mémoire).",
+          "Mise en place de la chaîne GitOps de déploiement (Helm, ArgoCD).",
+          "Exploitation et fiabilisation de la plateforme en production dans un environnement souverain."
+        ],
+        "tech_stack": [
+          "Kubernetes",
+          "Helm",
+          "ArgoCD",
+          "GitOps",
+          "Python",
+          "vLLM",
+          "GPU",
+          "LLM"
+        ],
+        "impact": "Mise à disposition d'une plateforme d'inférence LLM industrialisée et opérée en continu au sein d'un environnement contraint et souverain.",
+        "links": []
+      },
+      {
+        "name": "Industrialisation & observabilité MLOps",
+        "period": {
+          "start_date": "2026-06-01",
+          "end_date": null
+        },
+        "description": "Mise en place des pratiques MLOps autour de la plateforme : automatisation, supervision et observabilité de l'inférence.",
+        "responsibilities": [
+          "Automatisation du cycle de vie de déploiement des modèles.",
+          "Mise en place de la supervision et de l'observabilité de la plateforme d'inférence.",
+          "Optimisation des performances et de l'utilisation des ressources GPU.",
+          "Développement de services asynchrones en Python autour de la plateforme."
+        ],
+        "tech_stack": [
+          "Python",
+          "Async",
+          "Observabilité",
+          "MLOps",
+          "Kubernetes",
+          "Prometheus",
+          "Grafana"
+        ],
+        "impact": "Amélioration de la fiabilité, de la visibilité et de l'efficience des ressources de la plateforme d'inférence.",
+        "links": []
       }
     ]
   }
