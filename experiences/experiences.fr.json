@@ -405,6 +405,82 @@
     ]
   },
   {
+    "id": "dgfip-llm-platform-2024",
+    "title": "Ingénieur MLOps / Plateforme d'inférence LLM",
+    "employment_type": "contract",
+    "level": "senior",
+    "start_date": "2024-01-01",
+    "end_date": null,
+    "summary": "Conception, industrialisation et exploitation d'une plateforme d'inférence LLM sur Kubernetes pour la Direction Générale des Finances Publiques (DGFIP). Mission réalisée via TANTAR SAS en sous-traitance INOP'S/UGAP.",
+    "location": "France",
+    "company": {
+      "name": "DGFIP (via INOP'S / UGAP)",
+      "description": "Direction Générale des Finances Publiques. Mission de mise en place d'une plateforme souveraine d'inférence de grands modèles de langage pour des cas d'usage internes, réalisée en sous-traitance via TANTAR SAS.",
+      "sectors": [
+        "Secteur public",
+        "MLOps",
+        "LLM",
+        "Infrastructure IA",
+        "Kubernetes"
+      ],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "Plateforme d'inférence LLM sur Kubernetes",
+        "period": {
+          "start_date": "2024-01-01",
+          "end_date": null
+        },
+        "description": "Construction et exploitation d'une plateforme de service de modèles de langage sur Kubernetes, du provisioning GPU jusqu'à l'exposition d'API d'inférence à faible latence.",
+        "responsibilities": [
+          "Conception de l'architecture de la plateforme d'inférence LLM sur Kubernetes.",
+          "Déploiement et opération des moteurs de serving (scheduling GPU, autoscaling, gestion de la mémoire).",
+          "Mise en place de la chaîne GitOps de déploiement (Helm, ArgoCD).",
+          "Exploitation et fiabilisation de la plateforme en production dans un environnement souverain."
+        ],
+        "tech_stack": [
+          "Kubernetes",
+          "Helm",
+          "ArgoCD",
+          "GitOps",
+          "Python",
+          "vLLM",
+          "GPU",
+          "LLM"
+        ],
+        "impact": "Mise à disposition d'une plateforme d'inférence LLM industrialisée et opérée en continu au sein d'un environnement contraint et souverain.",
+        "links": []
+      },
+      {
+        "name": "Industrialisation & observabilité MLOps",
+        "period": {
+          "start_date": "2024-03-01",
+          "end_date": null
+        },
+        "description": "Mise en place des pratiques MLOps autour de la plateforme : automatisation, supervision et observabilité de l'inférence.",
+        "responsibilities": [
+          "Automatisation du cycle de vie de déploiement des modèles.",
+          "Mise en place de la supervision et de l'observabilité de la plateforme d'inférence.",
+          "Optimisation des performances et de l'utilisation des ressources GPU.",
+          "Développement de services asynchrones en Python autour de la plateforme."
+        ],
+        "tech_stack": [
+          "Python",
+          "Async",
+          "Observabilité",
+          "MLOps",
+          "Kubernetes",
+          "Prometheus",
+          "Grafana"
+        ],
+        "impact": "Amélioration de la fiabilité, de la visibilité et de l'efficience des ressources de la plateforme d'inférence.",
+        "links": []
+      }
+    ]
+  },
+  {
     "id": "tantar-cofounder-2023",
     "title": "Cofondateur & Lead Produit / Tech",
     "employment_type": "entrepreneurship",

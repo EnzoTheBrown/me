@@ -405,6 +405,82 @@
     ]
   },
   {
+    "id": "dgfip-llm-platform-2024",
+    "title": "MLOps Engineer / LLM Inference Platform",
+    "employment_type": "contract",
+    "level": "senior",
+    "start_date": "2024-01-01",
+    "end_date": null,
+    "summary": "Design, industrialization and operation of a Kubernetes-based LLM inference platform for the French Directorate General of Public Finances (DGFIP). Mission delivered through TANTAR SAS as a subcontractor via INOP'S/UGAP.",
+    "location": "France",
+    "company": {
+      "name": "DGFIP (via INOP'S / UGAP)",
+      "description": "French Directorate General of Public Finances. Engagement to build a sovereign large language model inference platform for internal use cases, delivered as a subcontractor through TANTAR SAS.",
+      "sectors": [
+        "Public sector",
+        "MLOps",
+        "LLM",
+        "AI infrastructure",
+        "Kubernetes"
+      ],
+      "location": "France",
+      "website": ""
+    },
+    "projects": [
+      {
+        "name": "Kubernetes-based LLM inference platform",
+        "period": {
+          "start_date": "2024-01-01",
+          "end_date": null
+        },
+        "description": "Built and operated a language-model serving platform on Kubernetes, from GPU provisioning to exposing low-latency inference APIs.",
+        "responsibilities": [
+          "Designed the architecture of the Kubernetes-based LLM inference platform.",
+          "Deployed and operated serving engines (GPU scheduling, autoscaling, memory management).",
+          "Implemented the GitOps deployment pipeline (Helm, ArgoCD).",
+          "Operated and hardened the platform in production within a sovereign environment."
+        ],
+        "tech_stack": [
+          "Kubernetes",
+          "Helm",
+          "ArgoCD",
+          "GitOps",
+          "Python",
+          "vLLM",
+          "GPU",
+          "LLM"
+        ],
+        "impact": "Delivered an industrialized LLM inference platform, continuously operated within a constrained, sovereign environment.",
+        "links": []
+      },
+      {
+        "name": "MLOps industrialization & observability",
+        "period": {
+          "start_date": "2024-03-01",
+          "end_date": null
+        },
+        "description": "Established MLOps practices around the platform: automation, monitoring and inference observability.",
+        "responsibilities": [
+          "Automated the model deployment lifecycle.",
+          "Set up monitoring and observability for the inference platform.",
+          "Optimized performance and GPU resource utilization.",
+          "Developed asynchronous Python services around the platform."
+        ],
+        "tech_stack": [
+          "Python",
+          "Async",
+          "Observability",
+          "MLOps",
+          "Kubernetes",
+          "Prometheus",
+          "Grafana"
+        ],
+        "impact": "Improved reliability, visibility and resource efficiency of the inference platform.",
+        "links": []
+      }
+    ]
+  },
+  {
     "id": "tantar-cofounder-2023",
     "title": "Co-founder and Lead Product/Tech",
     "employment_type": "entrepreneurship",
