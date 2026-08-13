@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T00:00:00.000000+00:00",
+  "generated_at": "2026-08-13T09:13:58.119650+00:00",
   "articles": [
     {
       "name": "articles/942499319d174a3f83cf46fd61469a93.md",
@@ -12,40 +12,20 @@
   ],
   "showcases": [
     {
+      "name": "showcases/06195f9d21594cf5a4e0257bc0f941a1.md",
+      "title": "# Case Study - NLP Fine-Tuning for SAV Routing (AWS SageMaker)\n"
+    },
+    {
       "name": "showcases/15a69331e4504d178d2ca5b1c2a2ca0d.md",
       "title": "# Enzo Lebrun \u2014 Ing\u00e9nieur Infrastructure LLM\n"
-    },
-    {
-      "name": "showcases/e2644ba634ba4c9d8fc2e10c969adfd5.md",
-      "title": "# Enzo Lebrun \u2014 LLM Infrastructure Engineer\n"
-    },
-    {
-      "name": "showcases/23c9d777b3cf49b8ae0440387b85528a.md",
-      "title": "# \u00c9tude de cas - Plateforme d'inf\u00e9rence LLM souveraine multi-mod\u00e8les sur Kubernetes\n"
-    },
-    {
-      "name": "showcases/8a9ba6d37f0f47539c2d8ec082bd044c.md",
-      "title": "# Case Study - Sovereign Multi-Model LLM Inference Platform on Kubernetes\n"
-    },
-    {
-      "name": "showcases/be764fd2f000490ea10d63bc101ee7c5.md",
-      "title": "# \u00c9tude de cas - Optimisation du scheduling GPU et du load balancing d'inf\u00e9rence LLM\n"
-    },
-    {
-      "name": "showcases/751db68ac41044e087f65d0d671160e2.md",
-      "title": "# Case Study - GPU Scheduling and LLM Inference Load Balancing Optimization\n"
-    },
-    {
-      "name": "showcases/610ae7bf20f741ffbbb27ee7b2c6b5cf.md",
-      "title": "# \u00c9tude de cas - Fiabilit\u00e9 et observabilit\u00e9 d'un pipeline d'inf\u00e9rence LLM asynchrone\n"
     },
     {
       "name": "showcases/16d18757d69c474dbd7b579bd7c14231.md",
       "title": "# Case Study - Reliability and Observability of an Asynchronous LLM Inference Pipeline\n"
     },
     {
-      "name": "showcases/06195f9d21594cf5a4e0257bc0f941a1.md",
-      "title": "# Case Study - NLP Fine-Tuning for SAV Routing (AWS SageMaker)\n"
+      "name": "showcases/23c9d777b3cf49b8ae0440387b85528a.md",
+      "title": "# \u00c9tude de cas - Plateforme d'inf\u00e9rence LLM souveraine multi-mod\u00e8les sur Kubernetes\n"
     },
     {
       "name": "showcases/3b839113578a4415876652505142aa07.md",
@@ -56,12 +36,40 @@
       "title": "# \u00c9tude de cas - Fine-Tuning NLP pour le routage SAV (AWS SageMaker)\n"
     },
     {
+      "name": "showcases/610ae7bf20f741ffbbb27ee7b2c6b5cf.md",
+      "title": "# \u00c9tude de cas - Fiabilit\u00e9 et observabilit\u00e9 d'un pipeline d'inf\u00e9rence LLM asynchrone\n"
+    },
+    {
+      "name": "showcases/751db68ac41044e087f65d0d671160e2.md",
+      "title": "# Case Study - GPU Scheduling and LLM Inference Load Balancing Optimization\n"
+    },
+    {
+      "name": "showcases/80e7dfc56b2f4203a169384e79c73a7f.md",
+      "title": "# \u00c9tude de cas - Pipeline d'h\u00e9bergement et de mise \u00e0 jour de mod\u00e8les NLP \u00e0 l'\u00e9chelle (Like a Bot / AWS SageMaker)\n"
+    },
+    {
+      "name": "showcases/8a9ba6d37f0f47539c2d8ec082bd044c.md",
+      "title": "# Case Study - Sovereign Multi-Model LLM Inference Platform on Kubernetes\n"
+    },
+    {
       "name": "showcases/92597476d0c348adb30d9e18ed47bf10.md",
       "title": "# Case Study - Payment Automation Platform (iBanFirst)\n"
     },
     {
       "name": "showcases/9befd5aa2bf74e4eb7742ff6444ff07a.md",
       "title": "# \u00c9tude de cas - Plateforme d\u2019automatisation des paiements (iBanFirst)\n"
+    },
+    {
+      "name": "showcases/be764fd2f000490ea10d63bc101ee7c5.md",
+      "title": "# \u00c9tude de cas - Optimisation du scheduling GPU et du load balancing d'inf\u00e9rence LLM\n"
+    },
+    {
+      "name": "showcases/d52d497b196248e1b98420577b25ff67.md",
+      "title": "# Case Study - Scalable NLP Model Hosting & Update Pipeline (Like a Bot / AWS SageMaker)\n"
+    },
+    {
+      "name": "showcases/e2644ba634ba4c9d8fc2e10c969adfd5.md",
+      "title": "# Enzo Lebrun \u2014 LLM Infrastructure Engineer\n"
     },
     {
       "name": "showcases/f3bb57bb888547e091cf1668380a019c.md",
